@@ -36,6 +36,19 @@ header h1 {
   width: 500px;
 }
 
+#grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 0;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+}
+
+.grid-cell {
+  border: 1px solid black;
+}
+
 .cell {
   border: 1px solid #393e41;
   box-sizing: border-box;
